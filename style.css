@@ -1,0 +1,157 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none !important;
+    color: white !important;
+    padding: 5px;
+    font-weight: bold;
+}
+a:hover{
+    color: #000;
+}
+ul li{
+    list-style: none;
+    
+}
+.header{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px;
+}
+.nav ul ,.nav ul li{
+    display: flex;
+    margin-right: 35px;
+  
+}
+.myslide img{
+    width: 100%;
+    height: 85vh;
+    align-items: center;
+    object-fit: cover;
+    opacity: 0.8;
+    
+    
+}
+.myslide{
+    position: relative;
+}
+.text{
+    position: absolute;
+    top: 240px;
+    left: 20%;
+  
+}
+.text h1{
+    font-size: 90px;
+    color: white;
+    justify-content: space-between;
+   
+}
+.footer1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: auto;
+    padding:20px;
+    opacity: 1;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+#footer{
+    background-color: black;
+    color:white;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+}
+#footer ul li{
+    line-height: 30px;
+}
+.logo1{
+    margin-left: 20px;
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.logo1 h1{
+    color: white;
+    display: inline-block;
+}
+.container{
+    background-color: rgb(219, 221, 221);
+    padding:20px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    
+}
+input[type=submit] {
+  background-color: #3d0ef9;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form{
+    width: 61%;
+    margin: auto;
+}
+.services{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+h1,h2{
+    margin-top: 20px;
+    margin-left: 20px;
+    font:bold;
+}
+.products{
+    display: flex;
+}
+.products img{
+    align-items:center;
+   padding: 20px;
+   margin-right: 260px;
+}
+p{
+    padding: 20px;
+}
+.item img{
+    width: 300px;
+    height: 250px;
+}
+.aboutimage {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 50px;
+}
+
+.main1 {
+    padding: 50px;
+    background-color: white;
+}
+.carousel-item img{
+    width:100%;
+    height: 100vh;
+}
